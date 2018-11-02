@@ -1,0 +1,18 @@
+{
+    "name": "sunspikes/zend-hydrator-doctrine",
+    "description": "Doctrine hydration support in ZF",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "doctrine/orm": "^2.5",
+        "doctrine/common": "^2.6",
+        "zendframework/zend-hydrator": "^2.2",
+        "zendframework/zend-filter": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zend\\Hydrator\\Doctrine\\": "src/"
+        }
+    }
+}
